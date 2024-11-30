@@ -2,6 +2,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+1) clone or download zip file 
+
+2) Go in root dir and run command npm install
+
+3)  "npm run dev" command  run 
+
+
 First, run the development server:
 
 ```bash
