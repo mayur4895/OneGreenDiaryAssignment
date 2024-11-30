@@ -1,18 +1,18 @@
 'use client'
-import { fetchUsers } from "@/services/fetchUsers";
+ 
  
 import { useQuery } from "@tanstack/react-query";
  
 import { DataTable } from "./data-table"
-import { columns, User } from "./column";
+import { columns,   } from "./column";
 import { useUserStore } from "@/store/user-store";
 import { Ghost, Loader2 } from "lucide-react";
 
 const UsersPage = () => {
  
- const { setUsers,users} = useUserStore();
+ const { setUsers} = useUserStore();
  
-  const { isLoading, isError , error, data ,isSuccess} = useQuery({
+  const { isLoading,  data ,isSuccess} = useQuery({
     queryKey: ['userData'],
     queryFn: () =>
       fetch('https://jsonplaceholder.typicode.com/users').then((res) =>

@@ -69,7 +69,7 @@ export function DataTable<TData, TValue>({
 
 
   const router = useRouter();
-  const { isOpen,type ,onOpen ,onClose} = useModal();
+  const {  onOpen , } = useModal();
   return (
     <div>
          <div className=" md:grid-cols-2 grid  items-center py-4 gap-4  md:px-0 px-4 ">

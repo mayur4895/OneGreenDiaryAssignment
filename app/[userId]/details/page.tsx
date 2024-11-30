@@ -1,6 +1,6 @@
 'use client';
 
-import { Card, CardContent, CardTitle } from '@/components/ui/card';
+import { Card, CardTitle } from '@/components/ui/card';
 import { useUserStore } from '@/store/user-store';
 import { Loader2 } from 'lucide-react';
 import { useParams } from 'next/navigation';

@@ -2,7 +2,7 @@
 "use client";
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { Provider as ReduxProvider } from "react-redux";
+ 
  
 import React from "react";
 import ModalProvider from "./modal-provider";
