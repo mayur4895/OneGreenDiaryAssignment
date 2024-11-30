@@ -1,8 +1,6 @@
 {
   "extends": ["next/core-web-vitals", "next/typescript"],
   "rules": {
-    "no-console": "off", // Disable the 'no-console' rule
-    "react-hooks/exhaustive-deps": "warn", // Change this rule to a warning
-    "@next/next/no-html-link-for-pages": "off" // Disable this Next.js-specific rule
+    "@typescript-eslint/no-unused-vars": "warn"
   }
 }
